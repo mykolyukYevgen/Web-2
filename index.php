@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>Комментарии</title>
+  <title>Коментарі</title>
   <link rel="stylesheet" href="/css/style.css">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
@@ -11,15 +11,15 @@
 <body>
   <form action="sendMessage.php" method="post" name="form">
     <p class="is-h">Автор:<br> <input name="author" type="text" class="is-input" id="author"></p>
-    <p class="is-h">Текст сообщения:<br><textarea name="message" rows="5" cols="50" id="message"></textarea></p>
+    <p class="is-h">Текст повідомлення:<br><textarea name="message" rows="5" cols="50" id="message"></textarea></p>
     <input name="js" type="hidden" value="no" id="js">
-    <button type="submit" id='click' name="button" class="is-button">Отправить</button>
+    <button type="submit" id='click' name="button" class="is-button">Відправити</button>
   </form>
   <div class="clear">
 
   </div>
 
-  <p>Комментарии к статье</p>
+  <p>Коментарії до сатті</p>
 
   <div id="commentBlock">
       <?php
